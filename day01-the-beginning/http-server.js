@@ -1,7 +1,7 @@
 const { createServer } = require('http');
 
 const HOST = 'localhost';
-const PORT = '8080';
+const PORT = 8080;
 
 const server = createServer((req, resp) => {
   // the first param is status code it returns
